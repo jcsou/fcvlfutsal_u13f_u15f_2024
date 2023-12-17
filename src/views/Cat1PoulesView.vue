@@ -143,7 +143,7 @@ import axios from 'axios'
 export default {
     data() {
       return {
-        categorie_id: "U13G",
+        categorie_id: "U13F",
         urlEquipe: process.env.BASE_URL + "datas/info_tournoi.json",
         urlPoule: process.env.BASE_URL + "datas/matchs_poules.json",
         lesmatchsA: [],

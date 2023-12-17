@@ -107,8 +107,8 @@ export default {
     data() {
       return {
 
-        c1_categorie: "U13G",
-        c2_categorie: "U15G",
+        c1_categorie: "U13F",
+        c2_categorie: "U15F",
 
         url_Poule: process.env.BASE_URL + "datas/matchs_poules.json",
 

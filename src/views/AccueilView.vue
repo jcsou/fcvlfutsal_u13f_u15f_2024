@@ -223,8 +223,8 @@ import axios from 'axios'
 export default {
     data() {
       return {
-        categorie1: "U13G",
-        categorie2: "U15G",
+        categorie1: "U13F",
+        categorie2: "U15F",
         dialogMap: false,
         dialogQRcode: false,
         dialogSalles: false,

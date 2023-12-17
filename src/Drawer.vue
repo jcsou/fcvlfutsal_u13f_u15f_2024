@@ -24,7 +24,7 @@
         </v-list-item-title>
       </v-list-item>
       <v-list-item>
-        <v-list-item-subtitle>Futsal U13G/U15G</v-list-item-subtitle>
+        <v-list-item-subtitle>Futsal U13F/U15F</v-list-item-subtitle>
       </v-list-item>
     </v-list>
 
@@ -58,11 +58,11 @@
       items: [
         { title: 'Accueil', icon: 'mdi-view-dashboard', to: '/' },
 
-        { title: 'U13G Poules', icon: 'mdi-view-split-vertical', to: '/Cat1Poules.html' },
-        { title: 'U13G Finales', icon: 'mdi-format-line-weight', to: '/Cat1Finales.html' },
+        { title: 'U13F Poules', icon: 'mdi-view-split-vertical', to: '/Cat1Poules.html' },
+        { title: 'U13F Finales', icon: 'mdi-format-line-weight', to: '/Cat1Finales.html' },
 
-        { title: 'U15G Poules', icon: 'mdi-view-split-vertical', to: '/Cat2Poules.html' },
-        { title: 'U15G Finales', icon: 'mdi-format-line-weight', to: '/Cat2Finales.html' },
+        { title: 'U15F Poules', icon: 'mdi-view-split-vertical', to: '/Cat2Poules.html' },
+        { title: 'U15F Finales', icon: 'mdi-format-line-weight', to: '/Cat2Finales.html' },
 
         { title: 'Timeline', icon: 'mdi-timeline-clock-outline', to: '/Timeline.html' },
       ],

@@ -1,24 +1,183 @@
-{ "tournoi": { "titre": "Tournoi en salle U13F/U15F", 
-"date": "Vendredi 05/01/2024", 
-"temps_jeu": "Temps de jeu 8 minutes. Rotation toutes les 9 minutes", 
-"lien_reglement": "pdf/01_ReglementTournoi2024.pdf", 
-"lien_ficheequipe": "pdf/02_Reference-Inscriptions2024.pdf", 
-"lien_site": "https://www.tes.fcvalduloir.live/fcvlfutsal_u13f_u15f_2024/dist/", 
-"titre_QRcode": "Tournoi En Salle FCVL futsal U13F U15F 2024" 
-},"lessalles": [
-{"id": "1-GLC",    
-"nomlong": "Gymnase Guy La Croix",    
-"lien": "img/salles/1-GLC-int.png"},  
-{"id": "2-CCVL",
-"nomlong": "Gymnase CC Val du Loir",
-"lien": "img/salles/2-CCVL.png"}
-],"lescategories": [
-{"id": "cat1",
-"categorie_id": "U13F",
-"nomlong": "U13 Féminines",
-"texthoraire": "Rdv 15h00 - Début 15h30"},
-{"id": "cat2",
-"categorie_id": "U15F",
-"nomlong": "U15 Féminines",
-"texthoraire": "Rdv 15h00 - Début 15h30"}
-],"lesequipes": [ {"cat_code": "cat1","categorie_id": "U13F","poule": "PA","id": "U13F1","nom": "ST SATURNIN 1","nomCourt": "FCSSM1","fanion": "saintsatmilesse.png"},{"cat_code": "cat1","categorie_id": "U13F","poule": "PA","id": "U13F2","nom": "FC VAL DU LOIR","nomCourt": "FCVL","fanion": "fcvl.png"},{"cat_code": "cat1","categorie_id": "U13F","poule": "PA","id": "U13F3","nom": "SABLE F.C.","nomCourt": "SABLE","fanion": "sable.png"},{"cat_code": "cat1","categorie_id": "U13F","poule": "PA","id": "U13F4","nom": "GATINE CHOIS.2","nomCourt": "GATINE2","fanion": "gatine.png"},{"cat_code": "cat1","categorie_id": "U13F","poule": "PB","id": "U13F5","nom": "LE MANC FC","nomCourt": "LE MANC","fanion": "lemans.png"},{"cat_code": "cat1","categorie_id": "U13F","poule": "PB","id": "U13F6","nom": "GATINE CHOIS.1","nomCourt": "GATINE1","fanion": "gatine.png"},{"cat_code": "cat1","categorie_id": "U13F","poule": "PB","id": "U13F7","nom": "ST SATURNIN 2","nomCourt": "FCSSM2","fanion": "saintsatmilesse.png"},{"cat_code": "cat1","categorie_id": "U13F","poule": "PB","id": "U13F8","nom": "AS SARGE","nomCourt": "SARGE","fanion": "sarge.png"},{"cat_code": "cat2","categorie_id": "U15F","poule": "PA","id": "U15F1","nom": "FC VAL DU LOIR","nomCourt": "FCVL","fanion": "fcvl.png"},{"cat_code": "cat2","categorie_id": "U15F","poule": "PA","id": "U15F2","nom": "GATINE CHOIS.2","nomCourt": "GATINE2","fanion": "gatine.png"},{"cat_code": "cat2","categorie_id": "U15F","poule": "PA","id": "U15F3","nom": "SABLE F.C.","nomCourt": "SABLE","fanion": "sable.png"},{"cat_code": "cat2","categorie_id": "U15F","poule": "PA","id": "U15F4","nom": "ECOMMOY F.C.","nomCourt": "ECOMMOY","fanion": "ecommoy.png"},{"cat_code": "cat2","categorie_id": "U15F","poule": "PB","id": "U15F5","nom": "CHANGE CS","nomCourt": "CHANGE","fanion": "change.png"},{"cat_code": "cat2","categorie_id": "U15F","poule": "PB","id": "U15F6","nom": "GATINE CHOIS.1","nomCourt": "GATINE1","fanion": "gatine.png"},{"cat_code": "cat2","categorie_id": "U15F","poule": "PB","id": "U15F7","nom": "VILLIERS AU BOUIN","nomCourt": "VILLIERS","fanion": "villiers.png"},{"cat_code": "cat2","categorie_id": "U15F","poule": "PB","id": "U15F8","nom": "AS SARGE","nomCourt": "SARGE","fanion": "sarge.png"} ] }
+{
+  "tournoi": {
+    "titre": "Tournoi en salle U13F/U15F",
+    "date": "Vendredi 05/01/2024",
+    "temps_jeu": "Temps de jeu 8 minutes. Rotation toutes les 9 minutes",
+    "lien_reglement": "pdf/01_ReglementTournoi2024.pdf",
+    "lien_ficheequipe": "pdf/02_Reference-Inscriptions2024.pdf",
+    "lien_site": "https://www.tes.fcvalduloir.live/fcvlfutsal_u13f_u15f_2024/dist/",
+    "titre_QRcode": "Tournoi En Salle FCVL futsal U13F U15F 2024"
+  },
+  "lessalles": [
+    {
+      "id": "1-GLC",
+      "nomlong": "Gymnase Guy La Croix",
+      "lien": "img/salles/1-GLC-int.png"
+    },
+    {
+      "id": "2-CCVL",
+      "nomlong": "Gymnase CC Val du Loir",
+      "lien": "img/salles/2-CCVL.png"
+    }
+  ],
+  "lescategories": [
+    {
+      "id": "cat1",
+      "categorie_id": "U13F",
+      "nomlong": "U13 Féminines",
+      "texthoraire": "Rdv 15h00 - Début 15h30"
+    },
+    {
+      "id": "cat2",
+      "categorie_id": "U15F",
+      "nomlong": "U15 Féminines",
+      "texthoraire": "Rdv 15h00 - Début 15h30"
+    }
+  ],
+  "lesequipes": [
+    {
+      "cat_code": "cat1",
+      "categorie_id": "U13F",
+      "poule": "PA",
+      "id": "U13F1",
+      "nom": "ST SATURNIN 1",
+      "nomCourt": "FCSSM1",
+      "fanion": "saintsatmilesse.png"
+    },
+    {
+      "cat_code": "cat1",
+      "categorie_id": "U13F",
+      "poule": "PA",
+      "id": "U13F2",
+      "nom": "FC VAL DU LOIR",
+      "nomCourt": "FCVL",
+      "fanion": "fcvl.png"
+    },
+    {
+      "cat_code": "cat1",
+      "categorie_id": "U13F",
+      "poule": "PA",
+      "id": "U13F3",
+      "nom": "SABLE F.C.",
+      "nomCourt": "SABLE",
+      "fanion": "sable.png"
+    },
+    {
+      "cat_code": "cat1",
+      "categorie_id": "U13F",
+      "poule": "PA",
+      "id": "U13F4",
+      "nom": "GATINE CHOIS.2",
+      "nomCourt": "GATINE2",
+      "fanion": "gatine.png"
+    },
+    {
+      "cat_code": "cat1",
+      "categorie_id": "U13F",
+      "poule": "PB",
+      "id": "U13F5",
+      "nom": "LE MANS FC",
+      "nomCourt": "LE MANS",
+      "fanion": "lemans.png"
+    },
+    {
+      "cat_code": "cat1",
+      "categorie_id": "U13F",
+      "poule": "PB",
+      "id": "U13F6",
+      "nom": "GATINE CHOIS.1",
+      "nomCourt": "GATINE1",
+      "fanion": "gatine.png"
+    },
+    {
+      "cat_code": "cat1",
+      "categorie_id": "U13F",
+      "poule": "PB",
+      "id": "U13F7",
+      "nom": "ST SATURNIN 2",
+      "nomCourt": "FCSSM2",
+      "fanion": "saintsatmilesse.png"
+    },
+    {
+      "cat_code": "cat1",
+      "categorie_id": "U13F",
+      "poule": "PB",
+      "id": "U13F8",
+      "nom": "AS SARGE",
+      "nomCourt": "SARGE",
+      "fanion": "sarge.png"
+    },
+    {
+      "cat_code": "cat2",
+      "categorie_id": "U15F",
+      "poule": "PA",
+      "id": "U15F1",
+      "nom": "FC VAL DU LOIR",
+      "nomCourt": "FCVL",
+      "fanion": "fcvl.png"
+    },
+    {
+      "cat_code": "cat2",
+      "categorie_id": "U15F",
+      "poule": "PA",
+      "id": "U15F2",
+      "nom": "GATINE CHOIS.2",
+      "nomCourt": "GATINE2",
+      "fanion": "gatine.png"
+    },
+    {
+      "cat_code": "cat2",
+      "categorie_id": "U15F",
+      "poule": "PA",
+      "id": "U15F3",
+      "nom": "SABLE F.C.",
+      "nomCourt": "SABLE",
+      "fanion": "sable.png"
+    },
+    {
+      "cat_code": "cat2",
+      "categorie_id": "U15F",
+      "poule": "PA",
+      "id": "U15F4",
+      "nom": "ECOMMOY F.C.",
+      "nomCourt": "ECOMMOY",
+      "fanion": "ecommoy.png"
+    },
+    {
+      "cat_code": "cat2",
+      "categorie_id": "U15F",
+      "poule": "PB",
+      "id": "U15F5",
+      "nom": "CHANGE CS",
+      "nomCourt": "CHANGE",
+      "fanion": "change.png"
+    },
+    {
+      "cat_code": "cat2",
+      "categorie_id": "U15F",
+      "poule": "PB",
+      "id": "U15F6",
+      "nom": "GATINE CHOIS.1",
+      "nomCourt": "GATINE1",
+      "fanion": "gatine.png"
+    },
+    {
+      "cat_code": "cat2",
+      "categorie_id": "U15F",
+      "poule": "PB",
+      "id": "U15F7",
+      "nom": "VILLIERS AU BOUIN",
+      "nomCourt": "VILLIERS",
+      "fanion": "villiers.png"
+    },
+    {
+      "cat_code": "cat2",
+      "categorie_id": "U15F",
+      "poule": "PB",
+      "id": "U15F8",
+      "nom": "AS SARGE",
+      "nomCourt": "SARGE",
+      "fanion": "sarge.png"
+    }
+  ]
+}
